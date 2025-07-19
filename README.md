@@ -75,13 +75,9 @@ Power Dissipation = VDD × I = 3.3V × 10mA = 33mW
 ![Noise Analysis](https://github.com/user-attachments/assets/d774407a-184a-4904-95f3-b71af55e8d3d)
 *Figure 1: Comparing output noise and input (Pnoise – periodic noise analysis)*
 
-### 📊 Noise Figure Performance
-![Noise Figure](https://github.com/user-attachments/assets/78d24d30-72e8-4a36-b600-2ba3981b9735)
-*Figure 2: Noise Figure for NF(dB10) and NF mag (dB10)*
-
 ### 📡 S-Parameter Frequency Response
 ![S-Parameter Analysis](https://github.com/user-attachments/assets/e0b0e81b-bbb0-4572-a327-4d676c4c4e79)
-*Figure 3: S-parameter analysis over 1-5 GHz frequency range with 80 MHz increments*
+*Figure 2: S-parameter analysis over 1-5 GHz frequency range with 80 MHz increments*
 
 ## 🛠️ Technology & Tools
 
