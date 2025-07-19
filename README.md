@@ -4,14 +4,14 @@
 [![Frequency](https://img.shields.io/badge/Frequency-2.4GHz-green)](https://en.wikipedia.org/wiki/2.4_GHz_radio_use)
 [![Tool](https://img.shields.io/badge/Tool-Cadence%20Virtuoso-orange)](https://www.cadence.com/en_US/home/tools/custom-ic-analog-rf-design/circuit-design/virtuoso-analog-design-environment.html)
 
-## 🎯 Project Overview
+##  Project Overview
 
 This project focuses on designing and optimizing a **Low Noise Amplifier (LNA)** operating at **2.4GHz** using **45nm CMOS technology** in Cadence Virtuoso. The LNA is designed to provide efficient reception of weak signals while maintaining optimal performance characteristics.
 
-### 🎯 **What is an LNA?**
+###  **What is an LNA?**
 A Low Noise Amplifier is a critical component in RF systems that amplifies weak incoming signals while adding minimal noise. It's typically the first active component in a receiver chain, making its performance crucial for overall system sensitivity.
 
-### 🎯 **Why 2.4GHz?**
+###  **Why 2.4GHz?**
 The 2.4GHz ISM (Industrial, Scientific, and Medical) band is widely used for:
 - 📶 **Wi-Fi** (802.11b/g/n)
 - 🔵 **Bluetooth** communication
@@ -21,7 +21,7 @@ The 2.4GHz ISM (Industrial, Scientific, and Medical) band is widely used for:
 
 This frequency band's popularity makes high-performance LNAs essential for modern wireless communication systems.
 
-## 🏗️ Design Objectives
+## Design Objectives
 
 | Parameter | Target | Achieved |
 |-----------|--------|----------|
@@ -44,10 +44,10 @@ This frequency band's popularity makes high-performance LNAs essential for moder
 - **Analysis Type**: Small-signal AC analysis
 
 **Key Parameters**:
-- **S11 (Input Reflection)**: < -10 dB ✅
-- **S21 (Forward Gain)**: 15-18 dB at 2.4 GHz ✅
-- **S22 (Output Reflection)**: < -10 dB ✅
-- **S12 (Reverse Isolation)**: < -30 dB ✅
+- **S11 (Input Reflection)**: < -10 dB 
+- **S21 (Forward Gain)**: 15-18 dB at 2.4 GHz 
+- **S22 (Output Reflection)**: < -10 dB 
+- **S12 (Reverse Isolation)**: < -30 dB 
 
 ### 🔊 Periodic Noise (Pnoise) Simulation
 **Purpose**: Evaluate large-signal noise performance in periodic steady-state operation.
@@ -58,7 +58,7 @@ This frequency band's popularity makes high-performance LNAs essential for moder
 - Provides accurate noise figure measurements
 - Enables optimization of noise performance
 
-## ⚡ Power Analysis
+## Power Analysis
 
 ### Power Dissipation Calculation
 ```
@@ -85,7 +85,7 @@ Power Dissipation = VDD × I = 3.3V × 10mA = 33mW
 
 ## 🛠️ Technology & Tools
 
-### 🏭 Process Technology
+###  Process Technology
 - **Technology Node**: 45nm CMOS
 - **Advantages**: 
   - Low power consumption
@@ -93,7 +93,7 @@ Power Dissipation = VDD × I = 3.3V × 10mA = 33mW
   - Cost-effective manufacturing
   - Good RF performance
 
-### 🖥️ Design Environment
+### Design Environment
 - **Primary Tool**: Cadence Virtuoso
 - **Simulation Types**: 
   - S-parameter analysis
@@ -114,14 +114,14 @@ RF-Design-of-2.4GHz-LNA/
 ## 🎓 Learning Outcomes
 
 This project demonstrates:
-- ✅ **RF Circuit Design** principles
-- ✅ **LNA Optimization** techniques
-- ✅ **Noise Analysis** methodologies
-- ✅ **S-Parameter** interpretation
-- ✅ **Cadence Virtuoso** proficiency
-- ✅ **CMOS Technology** understanding
+- **RF Circuit Design** principles
+- **LNA Optimization** techniques
+- **Noise Analysis** methodologies
+- **S-Parameter** interpretation
+- **Cadence Virtuoso** proficiency
+- **CMOS Technology** understanding
 
-## 🔮 Future Enhancements
+## Future Enhancements
 
 Potential improvements for future iterations:
 - [ ] **Multi-stage LNA** design for higher gain
@@ -130,7 +130,7 @@ Potential improvements for future iterations:
 - [ ] **Layout design** and parasitic extraction
 - [ ] **Fabrication** and measurement validation
 
-## 📚 References
+## References
 
 - RF Microelectronics by Behzad Razavi
 - CMOS Circuit Design, Layout, and Simulation by R. Jacob Baker
