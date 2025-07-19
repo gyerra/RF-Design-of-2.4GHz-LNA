@@ -139,17 +139,9 @@ Potential improvements for future iterations:
 
 ---
 
-## 👨‍💻 Author
-
-**VLSI Design Project** - RF Design of 2.4GHz Low Noise Amplifier
+**Made as part of Coursework in VLSI Design Project** - RF Design of 2.4GHz Low Noise Amplifier
 
 ---
-
-<div align="center">
-
-**🌟 Star this repository if you find it helpful! 🌟**
-
-</div>
 
 
 
